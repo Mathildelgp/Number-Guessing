@@ -40,14 +40,7 @@ input::-o-outer-spin-button {
 #block-button{
 	display: flex;
 }
-.button{
-	color: #71BBC1;
-	margin: 10px 5px 10px 5px;
-}
-.button:hover{
-	color: #A2B9BF;
-	cursor: pointer;
-}
+
 #number{
 	width: 150px;
 	height: 60px;
@@ -58,6 +51,14 @@ input::-o-outer-spin-button {
 	justify-content: center;
 	align-items: center;
 }
+#error{
+	width: 150px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #666666;
+}
 #result{
 	width: 150px;
 	height: 60px;
@@ -66,6 +67,18 @@ input::-o-outer-spin-button {
 	align-items: center;
 	color: #666666;
 }
+button:disabled{
+	color: #A2B9BF; 
+}
+button{
+	color: #71BBC1;
+	margin: 10px 5px 10px 5px;
+}
+button:hover{
+	color: #037175;
+	cursor: pointer;
+}
+
 
 /*#EFEFF0
 #A2B9BF
